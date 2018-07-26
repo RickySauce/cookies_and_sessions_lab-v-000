@@ -1,0 +1,5 @@
+<%= form_tag("/add", method: "post") do %>
+  <%= label_tag("Add Item") %>
+  <%= text_field_tag(:item) %>
+  <%= submit_tag("Add Item") %>
+<% end %>
